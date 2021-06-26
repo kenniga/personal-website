@@ -38,9 +38,6 @@ export default UnderConstruction
 export const getStaticProps = async () => {
     const claps = await axios.get(`${process.env.DASHBOARD_URL}/claps/count`)
 
-    console.debug( '====CEK SINI BOS', claps.data);
-    
-
     return {
         props: {
             claps: claps.data

@@ -17,9 +17,6 @@ const FullViewport = props => {
         ...props.className
     })
 
-    console.debug( '====CEK SINI BOS', className);
-    
-
     return (
         <div className={className}>
             {/* header here */}
