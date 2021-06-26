@@ -1,0 +1,60 @@
+.clap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    p {
+        font-weight: 300;
+        color: #867666;
+        font-style: italic;
+        opacity: .7;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 0;
+
+        &:first-of-type {
+            margin-top: 24px;
+        }
+    }
+
+    &__button {
+        background: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 3px solid #d68686;
+        width: 80px;
+        height: 80px;
+        border-radius: 70px;
+        flex-shrink: 0;
+
+        svg {
+            fill: #d68686;
+            width: 50px;
+            height: 50px;
+        }
+
+        &:active, 
+        &:active svg, 
+        &:hover,
+        &:hover svg {
+            border-color: #E1B80D;
+            fill: #E1B80D;
+        }
+    }
+
+    &__count {
+        margin-left: 17px;
+        font-size: 50px;
+        font-family: "Fredoka One", cursive;
+        line-height: 1;
+        color: #d68686;
+
+        span {
+            display: block;
+            font-size: 14px;
+        }
+    }
+}

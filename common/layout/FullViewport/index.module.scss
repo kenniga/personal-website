@@ -1,0 +1,16 @@
+.full-viewport-layout {
+    height: 100vh;
+
+    &--light {
+        background: #EAE2D6;
+    }
+
+    &--dark {
+        background: #011A27;
+    }
+
+    &--middle {
+        display: flex;
+        align-items: center;
+    }
+}
