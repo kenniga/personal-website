@@ -1,10 +1,10 @@
 import axios from 'axios';
 import Head from 'next/head'
 import Image from 'next/image';
-import FullViewport from '../../common/layout/FullViewport';
-import ClapClap from '../../modules/ClapClap';
+import FullViewport from '../common/layout/FullViewport';
+import ClapClap from '../modules/ClapClap';
 
-import styles from './index.module.scss';
+import styles from '../styles/UnderConstruction.module.scss';
 
 const UnderConstruction = ({claps}) => {
     
