@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import axios from 'axios';
 import Head from 'next/head'
 import Image from 'next/image';
@@ -36,7 +37,7 @@ const UnderConstruction = ({claps}) => {
 export default UnderConstruction
 
 export const getStaticProps = async () => {
-    const claps = await axios.get(`${process.env.DASHBOARD_URL}claps/count`)
+    const claps = await axios.get(`${process.env.DASHBOARD_URL}/claps/count`)
 
     return {
         props: {
