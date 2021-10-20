@@ -3,7 +3,8 @@ module.exports = {
         dirs: ['pages', 'modules', 'components']
     },
     env: {
-        MAINTENANCE_MODE: process.env.MAINTENANCE_MODE
+        MAINTENANCE_MODE: process.env.MAINTENANCE_MODE,
+        NEXT_PUBLIC_DASHBOARD_URL: process.env.NEXT_PUBLIC_DASHBOARD_URL
     },
     webpack(config) {
         config.module.rules.push({
